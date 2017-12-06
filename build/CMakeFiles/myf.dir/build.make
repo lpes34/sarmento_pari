@@ -142,6 +142,24 @@ myf: CMakeFiles/myf.dir/src/main.c.o
 myf: CMakeFiles/myf.dir/src/myf.c.o
 myf: CMakeFiles/myf.dir/src/callback.c.o
 myf: CMakeFiles/myf.dir/build.make
+myf: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_ts.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.9
+myf: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.9
 myf: CMakeFiles/myf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/PARI/Aula12/sarmento_pari/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable myf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myf.dir/link.txt --verbose=$(VERBOSE)

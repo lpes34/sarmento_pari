@@ -11,7 +11,7 @@ add_executable(${PROG} ${SOURCES})
 
 
 #Add external library like OpenCV
-find_package( OpenCV 2 REQUIRED )
+find_package( OpenCV 2.4.9.1 EXACT )
 include_directories( ${OpenCV_INCLUDE_DIRS})
 #-----------------------------------------------
 #The recommended way to find packages automatically using PkgConfig
@@ -22,7 +22,7 @@ pkg_check_modules(GTK REQUIRED gtk+-2.0)
 include_directories(${GTK_INCLUDE_DIRS})
 link_directories(${GTK_LIBRARY_DIRS})
 
-target_link_libraries(${PROG} ${GTK_LIBRARIES} )
+target_link_libraries(${PROG} ${GTK_LIBRARIES} ${OpenCV_LIBS} )
 
 
 

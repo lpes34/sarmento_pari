@@ -32,8 +32,8 @@ typedef struct
 typedef struct { int totA, totE, totI, totO, totU, totY;} vStat;
 
 
-#ifndef _MYF_H
-#define _MYF_H
+//#ifndef _MYF_H
+//#define _MYF_H
 
 
 #include <cv.h>
