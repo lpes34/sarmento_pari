@@ -1,0 +1,4 @@
+/home/luis/PARI/Aula12/sarmento_pari/build/CMakeFiles/rebuild_cache.dir
+/home/luis/PARI/Aula12/sarmento_pari/build/CMakeFiles/cpfiles.dir
+/home/luis/PARI/Aula12/sarmento_pari/build/CMakeFiles/edit_cache.dir
+/home/luis/PARI/Aula12/sarmento_pari/build/CMakeFiles/myf.dir

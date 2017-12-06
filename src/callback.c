@@ -148,3 +148,12 @@ void p_InitTimer()
   //define timeout (timer): interval, callback to execute, and pass the window ID to refresh
   g_timeout_add (200, p_ForceRefreshDA, da);
 }
+
+
+gboolean pari_UpdateImageAreas(gpointer data)
+{
+        //generate an expose event (draw event) on drawingarea1
+        GtkWidget *da1 = GTK_WIDGET(gtk_builder_get_object(builderG, "drawingarea1"));
+        gtk_widget_queue_draw(da1);
+        return TRUE;
+}

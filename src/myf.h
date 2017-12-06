@@ -31,14 +31,20 @@ typedef struct
 }tempo;
 typedef struct { int totA, totE, totI, totO, totU, totY;} vStat;
 
-//#include <cv.h>
-//#include <highgui.h>
+
+#ifndef _MYF_H
+#define _MYF_H
+
+
+#include <cv.h>
+#include <highgui.h>
 #include <sys/ipc.h>
 #include <sys/shm.h>
 #include <termios.h>
 #include <unistd.h>
 #include <gtk/gtk.h>
 #include <cairo.h>
+
 
 #define MAXFFBUFFER 1000
 typedef struct {
@@ -61,6 +67,11 @@ typedef struct {
 	double yoffG;
 	free_form ffG={0};   //init count to zero. Do not affect x and y.
 	double fontSizeFactorG=1;
+
+
+	GtkBuilder *builderG;
+        IplImage *dst_imageG , *src_imageG;
+        CvCapture *captureG;
 #else
 	extern int bin_limitG;
 	//extern IplImage *src_imageG, *dst_imageG;
@@ -75,6 +86,11 @@ typedef struct {
 	extern double yoffG;
 	extern free_form ffG;
 	extern double fontSizeFactorG;
+
+
+	extern GtkBuilder *builderG;
+        extern IplImage *dst_imageG , *src_imageG;
+        extern CvCapture *captureG;
 #endif
 
 
